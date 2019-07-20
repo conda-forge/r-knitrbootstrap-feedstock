@@ -1,7 +1,3 @@
-<!--
-# -*- mode: jinja -*-
--->
-
 About r-knitrbootstrap
 ======================
 
@@ -18,8 +14,15 @@ Summary: A framework to create Bootstrap <http://getbootstrap.com/> HTML reports
 Current build status
 ====================
 
-All platforms:
-[![noarch](https://img.shields.io/circleci/project/github/conda-forge/r-knitrbootstrap-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/r-knitrbootstrap-feedstock)
+
+<table><tr><td>All platforms:</td>
+    <td>
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5754&branchName=master">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-knitrbootstrap-feedstock?branchName=master">
+      </a>
+    </td>
+  </tr>
+</table>
 
 Current release info
 ====================
