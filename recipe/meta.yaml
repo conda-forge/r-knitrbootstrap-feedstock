@@ -1,4 +1,4 @@
-{% set version = "1.0.3" %}
+{% set version = "1.0.4" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/knitrBootstrap_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/knitrBootstrap/knitrBootstrap_{{ version }}.tar.gz
-  sha256: ad6a23f236af6cf804aa7595f4dca5fdd54cbdc86d97b2028f4eb6539fb0f594
+  sha256: fbc1e8df2f9b17139d1156a17b890f3a50d356701862227981535ca50a21838a
 
 build:
-  number: 2
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
